@@ -5,32 +5,33 @@ using namespace std;
 int main () {
 
 
-int letra, R=1, Y=2, B=3, W=4, K=5, C=6, G=7;
+int letra;
 
 cout << "Escriba una de estas letras: R, Y, B, W, K, C, G ";
 cin >> letra 
 
 switch (letra){
-    case 1: cout << "Rojo";
+    case 'R' | 'r': cout << "Rojo";
     break;
 
-    case 2: cout << "Amarillo";
+    case 'Y' | 'y': cout << "Amarillo";
     break;
 
-    case 3: cout << "Azul";
+    case 'B' | 'b': cout << "Azul";
     break;
 
-    case 4: cout << "Blanco";
+    case 'W' | 'w': cout << "Blanco";
     break;
     
-    case 5: cout << "Negro";
+    case 'K' | 'k': cout << "Negro";
     break;
     
-    case 6: cout << "Cian";
+    case 'C' | 'c': cout << "Cian";
     break;
 
-    case 7: cout << "Verde";
+    case 'G' | 'g': cout << "Verde";
     break;
+    
     default: cout << "Escriba la letra en mayuscula";
 }
     return 0;
