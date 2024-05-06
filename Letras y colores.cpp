@@ -1,35 +1,35 @@
 #include <iostream>
-#include <cmath>
+
 using namespace std;
 
 int main () {
 
 
-int letra;
+char letra;
 
 cout << "Escriba una de estas letras: R, Y, B, W, K, C, G ";
 cin >> letra 
 
 switch (letra){
-    case 'R' | 'r': cout << "Rojo";
+    case 'R': cout << "Rojo";
     break;
 
-    case 'Y' | 'y': cout << "Amarillo";
+    case 'Y': cout << "Amarillo";
     break;
 
-    case 'B' | 'b': cout << "Azul";
+    case 'B': cout << "Azul";
     break;
 
-    case 'W' | 'w': cout << "Blanco";
+    case 'W': cout << "Blanco";
     break;
     
-    case 'K' | 'k': cout << "Negro";
+    case 'K': cout << "Negro";
     break;
     
-    case 'C' | 'c': cout << "Cian";
+    case 'C': cout << "Cian";
     break;
 
-    case 'G' | 'g': cout << "Verde";
+    case 'G': cout << "Verde";
     break;
     
     default: cout << "Escriba la letra en mayuscula";
