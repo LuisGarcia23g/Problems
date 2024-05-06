@@ -11,28 +11,28 @@ cout << "Escriba una de estas letras: R, Y, B, W, K, C, G ";
 cin >> letra; 
 
 switch (letra){
-    case 'R': cout << "Rojo";
+    case 'R'| 'r': cout << "Rojo";
     break;
 
-    case 'Y': cout << "Amarillo";
+    case 'Y'| 'y': cout << "Amarillo";
     break;
 
-    case 'B': cout << "Azul";
+    case 'B'| 'b': cout << "Azul";
     break;
 
-    case 'W': cout << "Blanco";
+    case 'W'| 'w': cout << "Blanco";
     break;
     
-    case 'K': cout << "Negro";
+    case 'K'| 'k': cout << "Negro";
     break;
     
-    case 'C': cout << "Cian";
+    case 'C'| 'c': cout << "Cian";
     break;
 
-    case 'G': cout << "Verde";
+    case 'G'| 'g': cout << "Verde";
     break;
     
-    default: cout << "Escriba la letra en mayuscula";
+    default: cout << "Escriba una de las letras dadas";
 }
     return 0;
 }
