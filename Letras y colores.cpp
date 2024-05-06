@@ -8,7 +8,7 @@ int main () {
 char letra;
 
 cout << "Escriba una de estas letras: R, Y, B, W, K, C, G ";
-cin >> letra 
+cin >> letra; 
 
 switch (letra){
     case 'R': cout << "Rojo";
